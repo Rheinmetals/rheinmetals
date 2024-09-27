@@ -1,0 +1,49 @@
+<html></html>
+    <head>
+        <meta charset="utf-8">
+        
+        <link rel="icon" href="images/bitbug_favicon.ico">
+        <title>
+            Library von Otto Von Paglus 
+        </title>
+    </head>
+    <body>
+        <center>
+            <h1>旁奕尔的图书馆</h1>
+            <h2>编目模块</h2>
+            <h3>单本书输入模式</h3>
+        </center>
+        <hr width="80%">
+        <form name="input" action="/inputfinish" method="post" enctype="application/json">
+            <center>
+                <p>请输入书名：</p>
+                <input  id='door'type="text" name="bookname"><br> 
+                <p>请输入作者：</p>
+                <input  id='door'type="text" name="writer"><br>
+                <p>请输入作者国籍（例：【德】）：</p>
+                <input  id='door'type="text" name="nation"><br>
+                <p>请输入ISBN：</p>
+                <input  id='door'type="text" name="isbn"><br>
+                <p>请输入分类号（一）（参照CIP）：</p>
+                <input  id='door'type="text" name="cbcm"><br>
+                <p>请输入分类号（二）（外文专用）：</p>
+                <input  id='door'type="text" name="duwei_ten"><br>
+                <p>请输入购入时间：</p>
+                <input  id='door'type="text" name="buytime"><br>
+                <p>请输入购入地点：</p>
+                <input  id='door'type="text" name="buyplace"><br>
+                <p>请输入购入原因：</p>
+                <input  id='door'type="text" name="reason"><br>
+                <p>请输入入库时间：</p>
+                <input  id='door'type="text" name="catatime"><br>
+                <p>请输入藏书位置：</p>
+                <input  id='door'type="text" name="bookplace"><br>
+                <h3>完成请点这</h3>
+                <input type="submit" value="开始"onclick="javascrtpt:window.location.href='/inputfinish'">
+            </center>
+        </form>
+            <center>
+                
+            </center>
+    </body>
+</html>
